@@ -1,12 +1,15 @@
 /*
-	What is a function?
+	Defining a function. Calling a function.
 
 	author: Alexander Hungerford
 
 	Lesson:
-		Preprocessor files
+		define a function (prior to calling it)
 
-		function definition (prior to calling the function)
+		declaring a variable, x
+		storing value, 10
+		return statement
+		scope - functions, variables
 
 		format specifier - %d
 
