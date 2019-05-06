@@ -6,20 +6,31 @@
 	Lesson:
 		comments: single-line vs. multi-line
 
-		function definition vs. function declaration
+		the 4 sections of a C program
+			a program starts at main()
 
-		If you define your functions before they are called -- above main(),
-		then you aren't required to have a function declaration.
+		what is a function?
+			calling a function -- functionName(  with open paren
+			printf()
+
+		The choices between sections 3 vs. 4	
+			If you define your functions before they are called -- above main(),
+			then you aren't required to have a function declaration.
 */
 
+// section 2
 #include <stdio.h>
 
-// function declarations or definitions here
+// section 3:
+	// function declarations or definitions here
 
+// section 1
 int main()
 {
 	// your program here
+	printf("Talk to me.")
 	return 0;
 }
 
-// function definitions here (requires declaration above)
+// section 4
+	// function definitions here (requires declaration above)
