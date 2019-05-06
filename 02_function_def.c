@@ -1,39 +1,28 @@
 /*
-	What is a function?
+	Function Declarations
 
 	author: Alexander Hungerford
 
 	Lesson:
-		Preprocessor files
-
-		function definition (prior to calling the function)
-
-		format specifier - %d
-
-		calling a function
+		function definition vs. function declaration
+		all we did was move our definition BELOW main()
+		then we put a declaration above main() with a semicolon
 */
 
 #include <stdio.h>
 
-// function defined before it is called;
-int name(void)
-{
-    int x = 10, y = 5;
-    return x+y;
-}
-
-/*
-int circumference(int radius)
-{
-	float pi = 3.14;
-	int radius = r;
-	scanf("Enter the radius of your circle:", %d);
-	return pi*r**2;
-}
-*/
+// function declaration
+int number(void);
 
 int main()
 {
-	printf("Print it: %d.", name());
+	printf("Print it: %d.", number());
 	return 0;
+}
+
+int number(void)
+{
+    int x;
+    x = 10;
+    return x;
 }
